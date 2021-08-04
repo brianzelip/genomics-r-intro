@@ -1415,7 +1415,7 @@ head(Ecoli_metadata)
 
 
 ~~~
-# A tibble: 6 x 7
+# A tibble: 6 × 7
   sample   generation clade   strain cit     run       genome_size
   <chr>         <dbl> <chr>   <chr>  <chr>   <chr>           <dbl>
 1 REL606            0 NA      REL606 unknown <NA>             4.62
@@ -1505,7 +1505,7 @@ a true R data frame you could coerce with `as.data.frame()`.
 >> 
 >> 
 >> ~~~
->> # A tibble: 1 x 1
+>> # A tibble: 1 × 1
 >>   genome_size
 >>         <dbl>
 >> 1        4.62
